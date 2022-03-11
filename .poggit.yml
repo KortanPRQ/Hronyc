@@ -1,4 +1,4 @@
---- # Poggit-CI Manifest. Open the CI at https://poggit.pmmp.io/ci/KortanPRQ/Hronyc
+--- # Poggit-CI Manifest. Open the CI at https://poggit.pmmp.io/ci/ho/Hronyc
 build-by-default: true
 branches:
 - master
