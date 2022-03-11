@@ -1,0 +1,34 @@
+name: Hronyc
+main: hronyc\main
+api: 4.0.0
+version: 0.1
+author: Hronyc
+
+commands:
+  heal:
+    description: "§6=|§fHoMarry§6|= §8Вылечить себя"
+    permission: ho.cmd.heal
+  gm:
+    description: "§6=|§fHoMarry§6|= §8Переключить режим игры"
+    permission: ho.cmd.gm
+  fly:
+    description: "§6=|§HoMarry§6|= §8Включить режим полёта"
+    permission: ho.cmd.fly
+  times:
+    description: "§6=|§fHoMarry§6|= §8Установка дня и ночи"
+    permission: ho.cmd.times
+  player:
+    description: "§6=|§fHoMarry§6|= §8Спрятать игроков от себя"
+    permission: ho.cmd.player
+
+permissions:
+  ho.cmd.heal:
+    default: op
+  ho.cmd.gm:
+    default: op
+  ho.cmd.fly:
+    default: op
+  ho.cmd.times:
+    default: op
+  ho.cmd.player:
+    default: op
